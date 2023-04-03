@@ -1,26 +1,32 @@
+
 body{
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
-    justify-content: center;
-    background: url("https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1203&q=80");
+    background-image: url("https://cutewallpaper.org/21/hd-dark-wallpaper/Dark-Wallpaper-1920x1080-28-images-on-Genchi.info.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
+    /* background-position:center;
+    background-attachment: fixed; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    height: 100vh;
+  
 }
 
 h2{
-    margin-top: 0;
-    color: rgb(38, 32, 32);
+    margin-top: -50px;
+    margin-left: 600px;
+    color: white;
     text-transform: uppercase;
     letter-spacing: 4px;
-    font-size: 50px;
+    font-size: 80px;
     text-align: center;
 }
 
 .clock{
     display: flex;
-        /* margin-top: auto; */
+    margin-left: 600px;
 }
 
 .clock div{
@@ -32,14 +38,14 @@ h2{
     width: 120px;
     height: 100px;
     background-color: rgb(38, 134, 230);
-    opacity: 8;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 90px;
     text-shadow: 2px 2px 4px rgba(11, 11, 11, 0.61);
-    
+    box-shadow: 3px 2px 3px  whitesmoke;
+   
 }
 
 .clock .text{

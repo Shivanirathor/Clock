@@ -5,6 +5,8 @@ const ampmE1 = document.getElementById("ampm");
 
 
 function updateClock(){
+    //  This line creates a new Date object and retrieves
+    //  the current hour using the getHours() method. 
     let h = new Date().getHours();
     let m = new Date().getMinutes()
     let s = new Date().getSeconds()
@@ -24,8 +26,8 @@ function updateClock(){
     secondE1.innerText = s
     ampm, (innerText = ampm);
     setTimeout(()=>{
-    updateClock()
-    }, 1000)
+    updateClock()        
+    }, 1000)       // 1000 milliseconds (1 second)
 }
 
 updateClock();
